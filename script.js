@@ -5,7 +5,12 @@ const msg = document.querySelector('#msg');
 const list = document.querySelector('#list');
 
 
-function itemRemove()
+function itemRemove(btnRemove) {
+    let listItem = document.querySelector('#list');
+     listItem.parentNode.removeChild(listItem);
+ 
+ }
+
 
 
 addToList.addEventListener('click', (e) => {
@@ -25,4 +30,6 @@ addToList.addEventListener('click', (e) => {
         inputQuantity.value = '';
     }
 
+    
+ 
 })
