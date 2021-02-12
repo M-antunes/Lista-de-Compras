@@ -21,6 +21,10 @@ body {
   margin-bottom: 10px;
 }
 
+#input2 {
+  max-width: 50px;
+}
+
 #btn {
   margin-bottom: 20px;
 }
